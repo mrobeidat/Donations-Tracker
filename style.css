@@ -1,0 +1,70 @@
+table,tr,th,td{
+
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 50%;
+    padding: 20px;
+    /* background-color: rgba(114, 104, 211, 0.8); */
+}
+table,tr,th{
+
+    background-color: #1F1F1F;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+table{
+
+    background-color: rgba(114, 104, 211, 0.8);
+    padding: 30%;
+}
+
+form{
+
+    border: thick;
+    background-color: rgba(114, 104, 211, 0.8);
+    color: whitesmoke;
+    width: 30%;
+    height:max-content;
+padding: 50px;
+
+}
+header{
+
+    text-align: center;
+}
+
+body{
+    background-image:url(/school.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+input[type=submit]{
+
+    background-color: #1F1F1F;
+    border: thick;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; 
+
+}
+.container {
+
+    margin-left: 25%;
+}
+
+.amount{
+
+width: 70%;}
+.name{
+
+width: 70%;
+}
+.first {
+
+margin-left: 2px;}

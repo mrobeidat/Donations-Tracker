@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Donation Tracker</title>
+</head>
+
+<body>
+    <header>Donation Tracker</header>
+    <main>
+
+        <form id="form">
+            <fieldset>
+                <div class="container">
+                    <label class="name" id="name" for="name"> Donator Name</label>
+                    <br>
+                    <input type="text" id="name" name= "name">
+   
+                    <br>
+                    <br>
+                    <label class="second" for="amount">Donation Amount</label>
+                    <br>
+                    <!-- From W3 Schools -->
+                    <select class="amount" id="amount" name="amount">
+                        <option value="100">100 Dinar</option>
+                        <option value="300">300 Dinar</option>
+                        <option value="500">500 Dinar</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="submit" value="submit Query">
+
+                </div>
+            </fieldset>
+        </form>
+        <div id="parent"> </div>
+
+        <button>Clear Items</button>
+
+
+        <script src="app.js"></script>
+    </main>
+</body>
+
+</html>
