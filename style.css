@@ -26,12 +26,17 @@ form{
     color: whitesmoke;
     width: 30%;
     height:max-content;
-padding: 50px;
+    padding: 50px;
 
 }
 header{
 
     text-align: center;
+    background-color:#1F1F1F ;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: larger;
 }
 
 body{
