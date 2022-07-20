@@ -96,7 +96,7 @@ function Submitter(event) {
 function updateInfo() {
 
 
-    let stringArr = JSON.stringify(Donate.all);
+    let stringArr = JSON.parse(Donate.all);
 
     localStorage.setItem('Info', stringArr);
 
@@ -108,7 +108,7 @@ function getInfo() {
 
     let Info = localStorage.getItem('Info');
 
-    let parsingArr = JSON.parse(Info);
+    let parsingArr = JSON.stringify(Info);
 
     if (parsingArr != null) {
 
